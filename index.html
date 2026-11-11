@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Für Wartungsfirmen und Installateure von Solaranlagen: jede Woche neue und geänderte MaStR-Einträge Ihrer Region, mit Betreiberwechseln.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">MaStR Wochenbericht</a></div>
-  <nav class="top"><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">MaStR Wochenbericht</a>
+  <nav><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Jede Woche die neuen MaStR-Einträge Ihrer Region — als Liste in Ihrem Postfach</h1>
-    <p class="sub">Für O&M-Firmen und Installateure gewerblicher Solaranlagen und Speicher: Sie wählen Region, Anlagenart und Leistung, und wir schicken jede Woche, was sich im Marktstammdatenregister geändert hat — neue Anlagen, Betreiberwechsel, Stilllegungen.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Das brauche ich</a>
-    <p class="cta-note">Früher Zugang · Auf dieser Seite wird noch keine Zahlung angenommen</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Für Wartungsfirmen und Installateure</p>
+      <h1 class="rise" style="--i:1" data-len="long">Jede Woche die neuen MaStR-Einträge Ihrer Region&nbsp;<span class="soft">— als Liste in Ihrem Postfach</span></h1>
+      <p class="rise" style="--i:2">Für O&M-Firmen und Installateure gewerblicher Solaranlagen und Speicher: Sie wählen Region, Anlagenart und Leistung, und wir schicken jede Woche, was sich im Marktstammdatenregister geändert hat — neue Anlagen, Betreiberwechsel, Stilllegungen.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Das brauche ich</a>
+      <p class="meta rise" style="--i:4">Früher Zugang · Auf dieser Seite wird noch keine Zahlung angenommen</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="34" fill="#0a1524" font-weight="600">MaStR Wochenbericht</text><line x1="110" y1="210" x2="1090" y2="210" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,282 148,292 164,272" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="300" font-size="30" fill="#0a1524">Neue Anlagen</text><rect x="130" y="360" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,382 148,392 164,372" fill="none" stroke="#12397a" stroke-width="4" /><text x="200" y="400" font-size="30" fill="#0a1524">Betreiberwechsel</text><rect x="130" y="460" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="500" font-size="30" fill="#0a1524">Stilllegung</text><rect x="130" y="560" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><text x="200" y="600" font-size="30" fill="#0a1524">CSV-Datei</text><rect x="720" y="260" width="360" height="400" fill="#dfe8f7" rx="20" /><text x="750" y="320" font-size="30" fill="#0a1524" font-weight="600">Ihre Region</text><rect x="760" y="470" width="48" height="150" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="835" y="520" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="910" y="410" width="48" height="210" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="985" y="540" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Für</dt><dd>Wartungsfirmen und Installateure</dd></div>
+      <div><dt>Liste</dt><dd>Neue Anlagen</dd></div>
+      <div><dt>Filter</dt><dd>Postleitzahlen oder Landkreise</dd></div>
+      <div><dt>Zugang</dt><dd>Früher Zugang</dd></div>
+    </dl>
+  </section>
 
   <section id="was" data-view="features_view">
-    <h2>Was Sie bekommen</h2>
-    <div class="grid">
-      <div class="card"><b>Ihr Filter</b><span>Postleitzahlen oder Landkreise, Anlagenart, Leistung ab einer Grenze.</span><br><a class="btn" href="price.html" data-ev="feature_filter">Das brauche ich</a></div>
-      <div class="card"><b>Neue Anlagen</b><span>Neu eingetragene Inbetriebnahmen mit Ort, Leistung und Betreiber.</span><br><a class="btn" href="price.html" data-ev="feature_neu">Das brauche ich</a></div>
-      <div class="card"><b>Betreiberwechsel und Stilllegung</b><span>Anlagen, deren Betreiber gewechselt hat oder die außer Betrieb gingen.</span><br><a class="btn" href="price.html" data-ev="feature_wechsel">Das brauche ich</a></div>
-      <div class="card"><b>Liste als Datei</b><span>Die Änderungen der Woche als CSV für Ihr CRM.</span><br><a class="btn" href="price.html" data-ev="feature_csv">Das brauche ich</a></div>
+    <div class="stack"><h2>Was Sie bekommen</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Ihr Filter</text><rect x="130" y="230" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,252 148,262 164,242" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="240" width="160" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="330" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="340" width="230" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="430" width="44" height="44" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="2" /><polyline points="140,452 148,462 164,442" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="440" width="300" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Ihr Filter</h3><p>Postleitzahlen oder Landkreise, Anlagenart, Leistung ab einer Grenze.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_filter">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="32" fill="#0a1524" font-weight="600">Neue Anlagen</text><rect x="140" y="210" width="420" height="22" fill="#dde2ea" rx="8" /><rect x="140" y="265" width="360" height="22" fill="#b9c3d2" rx="8" /><rect x="140" y="320" width="280" height="22" fill="#dde2ea" rx="8" /><rect x="140" y="375" width="390" height="22" fill="#b9c3d2" rx="8" /><circle cx="560" cy="470" r="42" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="542,470 554,484 582,450" fill="none" stroke="#12397a" stroke-width="5" /></svg></div>
+        <h3>Neue Anlagen</h3><p>Neu eingetragene Inbetriebnahmen mit Ort, Leistung und Betreiber.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_neu">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="120" font-size="30" fill="#0a1524" font-weight="600">Betreiberwechsel und Stilllegung</text><rect x="60" y="180" width="280" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="180" width="280" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="250" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="250" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="259" x2="450" y2="259" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="320" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="320" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="329" x2="450" y2="329" fill="none" stroke="#12397a" stroke-width="3" /><rect x="90" y="390" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="490" y="390" width="160" height="18" fill="#b9c3d2" rx="8" /><line x1="350" y1="399" x2="450" y2="399" fill="none" stroke="#dde2ea" stroke-width="3" /><polygon points="430,300 460,340 430,380" fill="#12397a" /></svg></div>
+        <h3>Betreiberwechsel und Stilllegung</h3><p>Anlagen, deren Betreiber gewechselt hat oder die außer Betrieb gingen.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_wechsel">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="70" y="120" font-size="30" fill="#0a1524" font-weight="600">Liste als Datei</text><rect x="60" y="180" width="250" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="180" width="250" height="340" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="90" y="250" width="160" height="20" fill="#dde2ea" rx="8" /><rect x="90" y="310" width="130" height="20" fill="#dde2ea" rx="8" /><rect x="90" y="370" width="150" height="20" fill="#dde2ea" rx="8" /><polygon points="340,340 420,340 420,310 480,360 420,410 420,380 340,380" fill="#12397a" /><rect x="530" y="260" width="160" height="20" fill="#b9c3d2" rx="8" /><rect x="530" y="340" width="140" height="20" fill="#dde2ea" rx="8" /><circle cx="620" cy="450" r="28" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Liste als Datei</h3><p>Die Änderungen der Woche als CSV für Ihr CRM.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_csv">Das brauche ich</a>
+      </article>
     </div>
   </section>
 
-  <section id="beispiel" data-view="example_view">
-    <h2>Beispiel (fiktive Daten)</h2>
-    <p class="fine">Wartungsfirma in Niedersachsen, Filter: drei Landkreise, Solaranlagen ab 30 kW. Montagmorgen: 14 neue Anlagen, 3 Betreiberwechsel, 1 Stilllegung. Jede Zeile mit Ort, Leistung, Inbetriebnahmedatum und Betreiber; die CSV-Datei geht direkt ins CRM des Vertriebs.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+  <section id="beispiel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Beispiel</h2>
+      <p>Wartungsfirma in Niedersachsen, Filter: drei Landkreise, Solaranlagen ab 30 kW. Montagmorgen: 14 neue Anlagen, 3 Betreiberwechsel, 1 Stilllegung. Jede Zeile mit Ort, Leistung, Inbetriebnahmedatum und Betreiber; die CSV-Datei geht direkt ins CRM des Vertriebs.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="170" x2="1000" y2="170" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="170" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Montagmorgen</text><circle cx="600" cy="170" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">Betreiberwechsel</text><circle cx="960" cy="170" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="250" font-size="30" fill="#0a1524" font-weight="600" text-anchor="middle">CSV-Datei</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="34" fill="#0a1524" font-weight="600">neue Anlagen</text><rect x="170" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="260" y="470" width="64" height="64" fill="#12397a" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="350" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="440" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="470" width="64" height="64" fill="#dfe8f7" rx="12" stroke="#dde2ea" stroke-width="2" /><rect x="170" y="580" width="520" height="24" fill="#dde2ea" rx="12" /><rect x="170" y="630" width="360" height="24" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>So funktioniert es</h2>
-    <p>Das Marktstammdatenregister enthält die Stromerzeugungsanlagen in Deutschland, und die Bundesnetzagentur stellt seine öffentlichen Daten täglich als Gesamtexport zur Verfügung. Für eine Wartungsfirma oder einen Installateur steckt darin eine Liste möglicher Kunden: neue Anlagen in der Region, Anlagen, die den Betreiber gewechselt haben, Anlagen, die stillgelegt wurden. Nur zeigt das Register nicht von sich aus, was sich seit letzter Woche geändert hat.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>So funktioniert es</h2></div>
+    <div class="stack">
+      <p>Das Marktstammdatenregister enthält die Stromerzeugungsanlagen in Deutschland, und die Bundesnetzagentur stellt seine öffentlichen Daten täglich als Gesamtexport zur Verfügung. Für eine Wartungsfirma oder einen Installateur steckt darin eine Liste möglicher Kunden: neue Anlagen in der Region, Anlagen, die den Betreiber gewechselt haben, Anlagen, die stillgelegt wurden. Nur zeigt das Register nicht von sich aus, was sich seit letzter Woche geändert hat.</p>
     <p>MaStR Wochenbericht macht genau diesen Vergleich. Sie legen einmal fest, was Sie interessiert: die Postleitzahlen oder Landkreise, in denen Sie arbeiten, die Anlagenart — Solaranlagen, Speicher oder beides — und eine Mindestleistung, zum Beispiel ab 30 kW, damit private Dachanlagen nicht die Liste füllen.</p>
     <p>Jede Woche vergleichen wir den aktuellen Export mit dem der Vorwoche und schicken Ihnen die Änderungen, die zu Ihrem Filter passen. Neue Inbetriebnahmen erscheinen mit Ort, Leistung, Datum und, soweit veröffentlicht, Betreiber. Betreiberwechsel und Stilllegungen werden gesondert aufgeführt, weil sie für eine Wartungsfirma oft der bessere Anlass für einen Anruf sind.</p>
     <p>Die Liste kommt per E-Mail und als CSV-Datei, die Sie in Ihr CRM oder Ihre Tabelle übernehmen. Jede Zeile enthält die Registernummer der Anlage, sodass Sie sie im Register selbst nachschlagen können.</p>
@@ -115,31 +149,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Für den Vertrieb ist die Liste nach Leistung sortiert, damit die größten Anlagen oben stehen. Sie können einzelne Einträge als erledigt markieren, als Kunde kennzeichnen oder ausblenden, und diese Markierungen bleiben in den folgenden Wochen erhalten. So entsteht aus der Wochenliste nach und nach eine eigene Übersicht über den Anlagenbestand in Ihrem Gebiet, ohne dass Sie den Registerexport selbst herunterladen und vergleichen müssen.</p>
     <p>Der Start dauert wenige Minuten: Region, Anlagenart und Mindestleistung wählen, E-Mail-Adresse angeben. Die erste Liste kommt am folgenden Montag und enthält zusätzlich eine Übersicht der vorhandenen Anlagen in Ihrem Filter, damit Sie einen Ausgangspunkt haben. Filter lassen sich jederzeit ändern; die nächste Wochenliste richtet sich dann nach dem neuen Filter.</p>
     <p>MaStR Wochenbericht ist kein Angebot der Bundesnetzagentur. Für die Nutzung der Kontaktdaten für Werbung gelten die üblichen Regeln; dafür bleibt Ihr Betrieb verantwortlich.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <h3>Für wen ist der Wochenbericht?</h3>
-    <p>Für Wartungsfirmen und Installateure gewerblicher Solaranlagen und Speicher.</p>
-    <h3>Woher kommen die Daten?</h3>
-    <p>Aus dem öffentlichen Gesamtexport des Marktstammdatenregisters.</p>
-    <h3>Kann ich mehrere Regionen wählen?</h3>
-    <p>Ja, mit mehreren Filtern, jeder mit eigener Wochenliste.</p>
-    <h3>Bekomme ich die Liste als Datei?</h3>
-    <p>Ja, per E-Mail und als CSV-Datei.</p>
-    <h3>Kann ich das schon nutzen?</h3>
-    <p>Noch nicht. Der Dienst ist in Vorbereitung, und wir prüfen, ob Fachbetriebe ihn brauchen.</p>
+    <div class="stack"><h2>Häufige Fragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Für wen ist der Wochenbericht?</h3><p>Für Wartungsfirmen und Installateure gewerblicher Solaranlagen und Speicher.</p></div>
+      <div class="split flip"><h3>Woher kommen die Daten?</h3><p>Aus dem öffentlichen Gesamtexport des Marktstammdatenregisters.</p></div>
+      <div class="split flip"><h3>Kann ich mehrere Regionen wählen?</h3><p>Ja, mit mehreren Filtern, jeder mit eigener Wochenliste.</p></div>
+      <div class="split flip"><h3>Bekomme ich die Liste als Datei?</h3><p>Ja, per E-Mail und als CSV-Datei.</p></div>
+      <div class="split flip"><h3>Kann ich das schon nutzen?</h3><p>Noch nicht. Der Dienst ist in Vorbereitung, und wir prüfen, ob Fachbetriebe ihn brauchen.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Filter anlegen</h2>
-    <p><label>Ihre Region<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— bitte wählen —</option><option>Ein Landkreis</option><option>Mehrere Landkreise</option><option>Ein Bundesland</option><option>Mehrere Bundesländer</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Filter anlegen</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Filter anlegen</h2>
+    </div>
+    <div class="tile stack">
+      <label>Ihre Region<select data-ev-focus="form_start"><option value="">— bitte wählen —</option><option>Ein Landkreis</option><option>Mehrere Landkreise</option><option>Ein Bundesland</option><option>Mehrere Bundesländer</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Filter anlegen</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>MaStR Wochenbericht</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Datenschutz</a></p>
-  <p class="muted">Kein Angebot der Bundesnetzagentur. Daten aus dem öffentlichen MaStR-Gesamtexport (DL-DE-BY-2.0).</p>
+  <p>Kein Angebot der Bundesnetzagentur. Daten aus dem öffentlichen MaStR-Gesamtexport (DL-DE-BY-2.0).</p>
 </div></footer>
 
 </body>
